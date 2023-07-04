@@ -1,8 +1,9 @@
 # Cloud-native-monitoring-app
 
-**This is a real-time DevOps project using tools like AWS, Docker, Kubernetes, and Python.**
+## This is a real-time DevOps project using tools like AWS, Docker, Kubernetes, and Python.**
 
 <br>
+
 
 ### In this Cloud-native DevOps project, we will go through these steps:
 
