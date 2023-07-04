@@ -17,6 +17,7 @@
 6. Create EKS cluster and nodes
 7. Create Kubernetes Deployment and Service
 8. Post forward and expose the application on Kubernetes
+   
 <br>
 
 
