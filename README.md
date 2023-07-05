@@ -45,6 +45,8 @@ Run in a container with:
 
 
 
+Clone the project to any directory where you do development work
+
 ```
 git clone https://github.com/SangTheInnovator/Cloud-native-monitoring-app
 ```
