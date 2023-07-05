@@ -4,7 +4,6 @@
 
 <br>
 
-
 ### In this Cloud-native DevOps project, we will go through these steps:
 
 1. Create a System Monitoring Application using the Flask framework
@@ -19,6 +18,5 @@
 8. Post forward and expose the application on Kubernetes
    
 <br>
-
 
 ![project_diagram](diagram.png)
