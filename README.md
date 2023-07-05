@@ -2,8 +2,6 @@
 
 ## This is a real-time DevOps project using tools like AWS, Docker, Kubernetes, and Python.
 
-<br>
-
 ### In this Cloud-native DevOps project, we will go through these steps:
 
 1. Create a System Monitoring Application using the Flask framework
