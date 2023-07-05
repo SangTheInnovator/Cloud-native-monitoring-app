@@ -24,13 +24,26 @@
 
 ### Pre-reqs
 
-- Be using Linux, WSL or MacOS, with bash, make etc
-- [Python 3.8+](https://www.python.org/downloads/) - for running locally, linting, running tests etc
+- Be using Linux, WSL, or MacOS, with bash, VScode, etc
+- [Python 3.8+](https://www.python.org/downloads/) - for running locally, linting, running tests, etc
 - [Docker](https://docs.docker.com/get-docker/) - for running as a container, or image build and push
 - [Kubectl](https://kubernetes.io/docs/tasks/tools/) - for deploy applications, inspect and manage cluster resources, and view logs
 - [AWS CLI](https://aws.amazon.com/cli/) - for deployment to AWS
+  
+The app runs under Flask and listens on port 5000 by default, this can be changed with the `PORT` environmental variable.
 
-Clone the project to any directory where you do development work
+# Containers
+
+
+Run in a container with:
+
+```bash
+
+```
+
+## Kubernetes
+
+
 
 ```
 git clone https://github.com/SangTheInnovator/Cloud-native-monitoring-app
