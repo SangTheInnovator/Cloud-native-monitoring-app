@@ -29,6 +29,7 @@
 - Be using Linux, WSL or MacOS, with bash, make etc
 - [Python 3.8+](https://www.python.org/downloads/) - for running locally, linting, running tests etc
 - [Docker](https://docs.docker.com/get-docker/) - for running as a container, or image build and push
+- [Kubectl](https://kubernetes.io/docs/tasks/tools/) - for deploy applications, inspect and manage cluster resources, and view logs
 - [AWS CLI](https://aws.amazon.com/cli/) - for deployment to AWS
 
 Clone the project to any directory where you do development work
