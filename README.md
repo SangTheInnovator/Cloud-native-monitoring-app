@@ -29,11 +29,11 @@
 - [Docker](https://docs.docker.com/get-docker/) - for running as a container, or image build and push
 - [Kubectl](https://kubernetes.io/docs/tasks/tools/) - for deploy applications, inspect and manage cluster resources, and view logs
 - [AWS CLI](https://aws.amazon.com/cli/) - for deployment to AWS
-  
-The app runs under Flask and listens on port 5000 by default, this can be changed with the `PORT` environmental variable.
+
 
 ### Containers
 
+Dockerfile
 ```Dockerfile
 # Use the official Python image as the base image
 FROM python:3.9-slim-buster
@@ -65,6 +65,8 @@ Run in a container with:
 ```bash
 
 ```
+The app runs under Flask and listens on port 5000 by default, this can be changed with the `PORT` environmental variable.
+
 
 ### Kubernetes
 
