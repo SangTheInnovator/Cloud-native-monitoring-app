@@ -72,11 +72,11 @@ The app runs under Flask and listens on port 5000 by default, this can be change
 
 ### Kubernetes
 
-*Create ECR and push the image to the Repo*
+- *Create ECR and push the image to the Repo*
 
-*Create EKS cluster and nodes*
+- *Create EKS cluster and nodes*
 
-*Create Kubernetes Deployment and Service*
+- *Create Kubernetes Deployment and Service*
 
 Clone the project to any directory where you do development work
 
