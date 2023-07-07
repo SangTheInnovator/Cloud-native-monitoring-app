@@ -6,7 +6,7 @@
 
 1. Create a System Monitoring Application using the Flask framework
 2. Run the Python application locally
-3. Contanize the application using Docker:
+3. Containerize the application using Docker:
    -  Write Dockerfile
    -  Build a Docker image
    -  Run Docker container
