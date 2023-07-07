@@ -78,6 +78,10 @@ The app runs under Flask and listens on port 5000 by default, this can be change
 
 - *Create Kubernetes Deployment and Service*
 
+
+## Screenshot
+
+
 Clone the project to any directory where you do development work
 
 ```
