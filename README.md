@@ -31,7 +31,7 @@
 - [AWS CLI](https://aws.amazon.com/cli/) - for deployment to AWS
 
 ```
-The application uses the **`psutil`** and **`Flask`, **Plotly**, **boto3** libraries. 
+The application uses the **psutil** and **Flask**, **Plotly**, **boto3**, **kubernetes** libraries. 
 Install them using pip command
 ```
 
