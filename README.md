@@ -34,7 +34,7 @@
 ### Containers
 
 Dockerfile
-```Dockerfile
+```
 # Use the official Python image as the base image
 FROM python:3.9-slim-buster
 
@@ -62,15 +62,21 @@ CMD ["flask", "run"]
 
 Run in a container with:
 
-```bash
-
 ```
+docker build -t my-monitoring-app
+docker run -p 5000:5000 my-monitoring-app
+```
+
 The app runs under Flask and listens on port 5000 by default, this can be changed with the `PORT` environmental variable.
 
 
 ### Kubernetes
 
+*Create ECR and push the image to the Repo*
 
+*Create EKS cluster and nodes*
+
+*Create Kubernetes Deployment and Service*
 
 Clone the project to any directory where you do development work
 
