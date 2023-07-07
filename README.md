@@ -30,6 +30,10 @@
 - [Kubectl](https://kubernetes.io/docs/tasks/tools/) - for deploy applications, inspect and manage cluster resources, and view logs
 - [AWS CLI](https://aws.amazon.com/cli/) - for deployment to AWS
 
+"""
+The application uses the **`psutil`** and **`Flask`, **Plotly**, **boto3** libraries. 
+Install them using pip command
+"""
 
 ### Containers
 
