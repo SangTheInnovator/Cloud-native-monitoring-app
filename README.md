@@ -17,7 +17,7 @@
    
 <br>
 
-![project_diagram](./picture/diagram.png)
+![project_diagram](diagram.png)
 
 
 ## Building & Running Locally
@@ -87,7 +87,7 @@ The app runs under Flask and listens on port 5000 by default, this can be change
 
 ## Screenshot
 
-![project_screenshot](./picture/screenshot.png)
+![project_screenshot](screenshot.png)
 
 Clone the project to any directory where you do development work
 
