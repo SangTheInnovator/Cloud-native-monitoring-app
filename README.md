@@ -95,7 +95,9 @@ response = ecr_client.create_repository(repositoryName=repository_name)
 repository_uri = response['repository']['repositoryUri']
 print(repository_uri)
 ```
-   
+4. Pushing the image to ECR respository:
+https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-ecr-image.html
+
 - *Create EKS cluster and nodes*
 
 ![eks_picture](./picture/eks.jpg)
@@ -129,7 +131,7 @@ deployment = client.V1Deployment(
                 containers=[
                     client.V1Container(
                         name="my-monitoring-container",
-                        image="549065213399.dkr.ecr.eu-north-1.amazonaws.com/cloud-native-app-repo:latest",
+                        image= <aws_account_id.dkr.ecr.region.amazonaws.com/my-repository:tag>,
                         ports=[client.V1ContainerPort(container_port=5000)]
                     )
                 ]
