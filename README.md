@@ -100,11 +100,12 @@ print(repository_uri)
 
 ![eks_picture](./picture/eks.jpg)
 
+Creating EKS cluster and nodes through this document: https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html
 
 - *Create Kubernetes Deployment and Service*
   
 ```
-from kubernetes import client, config
+from Kubernetes import client, config
 
 # Load Kubernetes configuration
 config.load_kube_config()
@@ -112,7 +113,7 @@ config.load_kube_config()
 # Create a Kubernetes API client
 api_client = client.ApiClient()
 
-# Definition the deployment
+# Definition of the deployment
 deployment = client.V1Deployment(
     metadata=client.V1ObjectMeta(name="my-monitoring-app"),
     spec=client.V1DeploymentSpec(
@@ -161,11 +162,16 @@ api_instance.create_namespaced_service(
 )
 ```
 
-Check Kubernetes by running these commands (it will check status of deployment, service, pods):
+Check Kubernetes by running these commands (it will check the status of deployment, service, and pods):
 ```
 kubectl get deployment -n default 
 kubectl get service -n default 
 kubectl get pods -n default 
+```
+When your pods are running, run the port-forward to expose the service:
+
+```
+kubectl port-forward svc/my-monitoring-service 5000:5000
 ```
 
 ## Screenshot
