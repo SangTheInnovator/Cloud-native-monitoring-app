@@ -78,9 +78,13 @@ The app runs under Flask and listens on port 5000 by default, this can be change
 ### Kubernetes
 
 - *Create ECR and push the image to the Repo*
+
+   ![ecr_picture](./picture/ecr.png)
    
 
 - *Create EKS cluster and nodes*
+  
+   ![eks_picture](./picture/eks.jpg)
 
 
 - *Create Kubernetes Deployment and Service*
