@@ -95,9 +95,7 @@ response = ecr_client.create_repository(repositoryName=repository_name)
 repository_uri = response['repository']['repositoryUri']
 print(repository_uri)
 ```
-4. Pushing the image to ECR respository
-   
-https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-ecr-image.html
+4. Pushing the image to ECR respository: https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-ecr-image.html
 
 
 - *Create EKS cluster and nodes*
@@ -105,6 +103,7 @@ https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-ecr-image.htm
 ![eks_picture](./picture/eks.jpg)
 
 Creating EKS cluster and nodes through this document: https://docs.aws.amazon.com/eks/latest/userguide/create-cluster.html
+
 
 - *Create Kubernetes Deployment and Service*
   
