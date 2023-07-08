@@ -1,4 +1,4 @@
-# Cloud-native-monitoring-app
+# Cloud native monitoring app on Kubernetes
 
 ## This is a real-time DevOps project using tools like AWS, Docker, Kubernetes, and Python.
 
@@ -80,15 +80,28 @@ The app runs under Flask and listens on port 5000 by default, this can be change
 - *Create ECR and push the image to the Repo*
 
    ![ecr_picture](./picture/ecr.png)
-   
 
+   1. Create the ECR client by using Boto3 (Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of AWS services)
+   ```
+   ecr_client = boto3.client('ecr')
+   ```
+   2. Create new a new ECR respository:
+   ```
+   repository_name = "cloud-native-app-repo"
+   response = ecr_client.create_repository(repositoryName=repository_name)
+   ```
+   3. Check the respository URI:
+   ```
+   repository_uri = response['repository']['repositoryUri']
+   print(repository_uri)
+   ```
+   
 - *Create EKS cluster and nodes*
   
    ![eks_picture](./picture/eks.jpg)
-
-
+   
+   
 - *Create Kubernetes Deployment and Service*
-
 
 Check Kubernetes by running these commands (it will check status of deployment, service, pods):
 ```
