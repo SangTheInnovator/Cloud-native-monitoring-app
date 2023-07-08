@@ -82,8 +82,16 @@ The app runs under Flask and listens on port 5000 by default, this can be change
 
 - *Create EKS cluster and nodes*
 
+
 - *Create Kubernetes Deployment and Service*
 
+
+Check Kubernetes by running these commands (it will check status of deployment, service, pods):
+```
+kubectl get deployment -n default 
+kubectl get service -n default 
+kubectl get pods -n default 
+```
 
 ## Screenshot
 
